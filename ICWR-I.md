@@ -12,8 +12,8 @@
 - 3.分布式控制系统
 	- iii.Distributed Control Systems(DCS)
 - 4.远程终端
-	- iiii.Remote Terminal Unit(RTU)
+	- iv.Remote Terminal Unit(RTU)
 - 5.人机交互界面设备
-	- iiiii.Human Machine Interface(HMI)
+	- v.Human Machine Interface(HMI)
 - 确保各组件通信的接口技术。
 	- Interface technology for communication between components...
