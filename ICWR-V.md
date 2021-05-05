@@ -8,9 +8,51 @@
 
 #### WAIT PLZ...
 
-### 5x02 OpenPCL环境仿真与搭建
+### 5x02 *《基于Modbus协议实现Openplc与Kingview（一）- 仿真通讯靶场搭建》*
 
-环境拉取即可。
+
+#### # *OpenPLC on Linux*
+
+- *OpenPLC*环境搭建
+	- [*点击以了解OpenPLC*](https://github.com/thiagoralves/OpenPLC_v3)
+
+```
+$ mkdir ICWR && cd ICWR
+$ git clone https://github.com/thiagoralves/OpenPLC_v3.git
+openplc_test.st
+$ cd OpenPLC_v3
+$ ./install.sh linux
+···
+···
+···
+Compiling for Linux
+Generating object files...
+Generating glueVars...
+Compiling main program...
+Compilation finished successfully!
+```
+
+运行：`nohup ./start_openplc.sh &`
+
+- *OpenPLC_Editor on Linux*
+
+```
+$ git clone https://github.com/thiagoralves/OpenPLC_Editor.git
+$ cd OpenPLC_Editor
+$ ./install.sh
+```
+
+#### # OpenPLC Programs
+
+
+![](assets/OpenPLC_TODO1.png)
+
+#### # *Kingview on Windows*
+
+- 设备驱动 -> PLC -> 莫迪康 -> ModBUS TCP -> TCP -> 下一步：
+
+![KingView_OPENPLC_TODO](assets/KingView_OPENPLC_TODO.png)
+
 
 ### 工控常见端口、服务以及协议
 
