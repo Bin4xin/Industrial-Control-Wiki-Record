@@ -64,7 +64,7 @@ $ ./openplc_editor.sh
 - 数据库 -> 数据字典 -> 新建...
 	- ![](assets/KingView_OPENPLC_TODO2.png)
 
-选中自定义画面 -> make -> view ：
+选中自定义画面 -> make -> view （GIF动画有点大，loading...）：
 
 ![success.gif](assets/KingView_OPENPLC_success.gif)
 
