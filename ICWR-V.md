@@ -56,6 +56,15 @@ $ ./install.sh
 
 ![KingView_OPENPLC_TODO](assets/KingView_OPENPLC_TODO.png)
 
+- 文件 -> 画面 添加组件
+
+- 数据库 -> 数据字典 -> 新建...
+
+选中自定义画面 -> make -> view ：
+
+![success.gif](assets/success.gif)
+
+
 
 ### 工控常见端口、服务以及协议
 
@@ -84,4 +93,8 @@ $ ./install.sh
  文件共享服务、连接服务、WEB应用服务等可以参考以下链接，和WEB渗透中常见端口基本一致。
  - [*点击以了解文件共享服务、连接服务、WEB应用服务常用端口及利用方式*](https://www.yuque.com/tidesec/ics/dca86987e7f1058d4a30fc5813cb2f2d#469c29e8)
 
+## 参考
+
+- [OpenPLC : CREATING YOUR FIRST PROJECT](https://www.openplcproject.com/reference/basics/first-project.html)
+- [工控系统常见安全威胁](https://www.yuque.com/tidesec/ics/f758973f916fd57513b7637fca32708d#8a887b45)
 
