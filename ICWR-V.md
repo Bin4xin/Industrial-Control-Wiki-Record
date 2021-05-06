@@ -75,7 +75,7 @@ $ ./openplc_editor.sh
 
 网上已经有大佬上传wireshark流量文件，就不重复造轮子住去流量了，直接下载下来对照poc代码分析看看：
 
-- ![点击下载：*sxd0216/attack-packets*](https://github.com/sxd0216/attack-packets)
+- [点击下载：*sxd0216/attack-packets*](https://github.com/sxd0216/attack-packets)
 	- 14、16帧为client向server请求流量，具体如下图：
 	- 15、17帧为server返回给client确认流量，具体流量可自行下载分析
 
@@ -86,7 +86,7 @@ $ ./openplc_editor.sh
 
 ![](assets/OpenPLC_attack_success.gif)
 
-### 工控常见端口、服务以及协议
+### 5x04 工控常见端口、服务以及协议
 
 常见的渗透中的利用端口如21、22端口，在我看来，均没有必要花大量时间去探测服务，应当将更多时间来针对个性化端口上的突破；
 
