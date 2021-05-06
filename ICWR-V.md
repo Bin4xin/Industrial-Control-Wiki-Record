@@ -62,11 +62,11 @@ $ ./openplc_editor.sh
 - 文件 -> 画面 添加组件（可参考动图添加组件）
 
 - 数据库 -> 数据字典 -> 新建...
-	- ![](assets/KingView_OPENPLC_TODO.png)
+	- ![](assets/KingView_OPENPLC_TODO2.png)
 
 选中自定义画面 -> make -> view ：
 
-![success.gif](assets/success.gif)
+![success.gif](assets/KingView_OPENPLC_success.gif)
 
 
 ### 工控常见端口、服务以及协议
