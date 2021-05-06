@@ -39,10 +39,13 @@ Compilation finished successfully!
 
 - *OpenPLC_Editor on Linux*
 
+**作用为本地PLC程序调试使用，无需求可跳过**
+
 ```
 $ git clone https://github.com/thiagoralves/OpenPLC_Editor.git
 $ cd OpenPLC_Editor
 $ ./install.sh
+$ ./openplc_editor.sh
 ```
 
 #### # *OpenPLC Programs*
@@ -56,14 +59,14 @@ $ ./install.sh
 
 ![KingView_OPENPLC_TODO](assets/KingView_OPENPLC_TODO.png)
 
-- 文件 -> 画面 添加组件
+- 文件 -> 画面 添加组件（可参考动图添加组件）
 
 - 数据库 -> 数据字典 -> 新建...
+	- ![](assets/KingView_OPENPLC_TODO.png)
 
 选中自定义画面 -> make -> view ：
 
 ![success.gif](assets/success.gif)
-
 
 
 ### 工控常见端口、服务以及协议
