@@ -68,6 +68,23 @@ $ ./openplc_editor.sh
 
 ![success.gif](assets/KingView_OPENPLC_success.gif)
 
+### 5x03 《基于*Modbus*协议与*KingView*实现*Openplc*仿真通讯（2）- 靶场攻击流量分析》
+
+
+#### # *WireShark*流量分析
+
+网上已经有大佬上传wireshark流量文件，就不重复造轮子住去流量了，直接下载下来对照poc代码分析看看：
+
+- ![点击下载：*sxd0216/attack-packets*](https://github.com/sxd0216/attack-packets)
+	- 14、16帧为client向server请求流量，具体如下图：
+	- 15、17帧为server返回给client确认流量，具体流量可自行下载分析
+
+![](assets/wireshark_tcp_show.png)
+
+
+#### # 模拟攻击启停
+
+![](assets/OpenPLC_attack_success.gif)
 
 ### 工控常见端口、服务以及协议
 
