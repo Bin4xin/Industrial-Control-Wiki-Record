@@ -22,7 +22,6 @@
 ```
 $ mkdir ICWR && cd ICWR
 $ git clone https://github.com/thiagoralves/OpenPLC_v3.git
-openplc_test.st
 $ cd OpenPLC_v3
 $ ./install.sh linux
 ···
@@ -49,6 +48,10 @@ $ ./openplc_editor.sh
 ```
 
 #### # *OpenPLC Programs*
+
+```
+$ curl -o openplc_test.st https://raw.githubusercontent.com/sxd0216/openplc_test.st/master/openplc_test.st
+```
 
 ![](assets/OpenPLC_TODO1.png)
 
